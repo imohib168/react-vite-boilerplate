@@ -53,7 +53,7 @@ Connect with me on LinkedIn for any inquiries or collaboration opportunities.
 
 ## Contributing
 
-Feel free to contribute to this project by [submitting issues](https://github.com/your-username/your-react-boilerplate/issues) or [pull requests](https://github.com/your-username/your-react-boilerplate/pulls). Your input is valuable, and together, we can make this React boilerplate even better.
+Feel free to contribute to this project by [submitting issues](https://github.com/imohib168/react-vite-boilerplate.git) or [pull requests](https://github.com/imohib168/react-vite-boilerplate/pulls). Your input is valuable, and together, we can make this React boilerplate even better.
 
 ## License
 
