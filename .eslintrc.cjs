@@ -10,7 +10,7 @@ module.exports = {
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', 'check-file'],
   rules: {
     indent: ['error', 2],
     'react/jsx-no-target-blank': 'off',
@@ -36,6 +36,19 @@ module.exports = {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
+    ],
+
+    'check-file/filename-naming-convention': [
+      'error',
+      {
+        '**/*.{jsx,tsx}': '[a-z0-9-]+', // accept all files that are all lower kebab-case or single word
+        '**/*.{js,ts}': '[a-z0-9-]+', // accept all files that are all lower kebab-case or single word
+      },
+      { ignoreMiddleExtensions: true },
+    ],
+    'check-file/folder-naming-convention': [
+      'error',
+      { 'src/**': '[a-z0-9-]+' }, // accept all files that are all lower kebab-case or single word
     ],
   },
 };
