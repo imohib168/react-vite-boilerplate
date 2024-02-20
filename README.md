@@ -28,6 +28,24 @@ Improve collaboration and code quality by incorporating [Husky](https://typicode
 
 Simplify import statements in your code with the setup of [jsconfig-paths](https://www.npmjs.com/package/vite-jsconfig-paths). This package allows you to use the `@` symbol as a shortcut to reference the 'src' directory in your imports, enhancing code readability and reducing the complexity of file paths.
 
+---
+### Folder Lint Rules
+
+The folder structure in this project is linted to ensure adherence to the React feature-based architecture model. This promotes maintainability and scalability by organizing code related to each feature in a structured manner.
+
+**Note:** If you want to modify the project's architecture, ensure to update the rules in the `.folderslintrc` file.
+
+## Project Architecture Model
+![React Feature-Based Architecture](https://github.com/imohib168/react-vite-boilerplate/assets/50514728/5e7217ae-af84-46a0-a1df-7f7676655937)
+
+*Image credit: [React Anti-patterns](https://www.amazon.com/React-Anti-Patterns-maintainable-applications-test-driven/dp/1805123971)*
+
+## Book Reference
+
+For more insights into React best practices, check out the book [React Anti-patterns](link-to-the-book) for a detailed exploration of React development patterns and anti-patterns.
+
+---
+
 ## Getting Started
 
 1. Clone this repository:
