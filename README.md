@@ -57,6 +57,6 @@ Feel free to contribute to this project by [submitting issues](https://github.co
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE), making it open for contributions and usage in both personal and commercial projects.
+This project is licensed under the [MIT License](https://github.com/imohib168/react-vite-boilerplate/blob/main/LICENSE), making it open for contributions and usage in both personal and commercial projects.
 
 Thank you for choosing this React boilerplate. Happy coding! 🚀
